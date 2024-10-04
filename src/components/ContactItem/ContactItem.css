@@ -1,0 +1,45 @@
+.table-row {
+    display: flex;
+    list-style-type: none;
+}
+
+.table-cell {
+    display: flex;
+    align-items: center;
+}
+
+.name-column {
+    width: 33%;
+}
+
+.mobile-no-column {
+    width: 67%;
+    display: flex;
+    align-items: center;
+}
+
+.favorite-icon-container {
+    margin-left: auto;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.separator {
+    width: 1px;
+    background-color: #ddd;
+    border: none;
+}
+
+.favorite-icon {
+    width: 20px;
+    height: 20px;
+}
+.delete-btn{
+    background-color: #e20;
+    color: #fff;
+    border-width: 0px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
